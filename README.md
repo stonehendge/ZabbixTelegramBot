@@ -8,4 +8,4 @@ Steps for running bot in docker:
 2) docker build . -t zbxmon:1.0
 3) docker run --name zbxmonbot -itd zbxmon:1.0
 4) docker cp __init__.py <ContainerID>:/usr/local/lib/python3.12/site-packages/aioschedule/__init__.py
-5) docker stop 45180462e739 && docker start 45180462e739
+5) docker stop <ContainerID> && docker start <ContainerID>
