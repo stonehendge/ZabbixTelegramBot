@@ -1,5 +1,5 @@
 # ZabbixTelegramBot
-Moitor zabbix problems in TG Bot
+Monitor zabbix problems in TG Bot
 
 
 Steps for running bot in docker:
